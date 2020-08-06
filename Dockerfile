@@ -1,4 +1,4 @@
-FROM python:2-alpine
+FROM python:3-alpine
 MAINTAINER Jesper Jeeninga <jesper.jeeninga@trimm.nl>
 RUN apk update && \
   apk upgrade && \
